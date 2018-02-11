@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Message_of_day"
+            android:icon="@drawable/ic_short_text_black"
+            android:title="Message of The day" />
+        <item
+            android:id="@+id/nav_Calendar"
+            android:icon="@drawable/ic_date_range_black"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_Sign_Up"
+            android:icon="@drawable/ic_list_black_24px"
+            android:title="Sign Up" />
+        <item
+            android:id="@+id/nav_Communicate"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Communicate" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
